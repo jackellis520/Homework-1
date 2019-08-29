@@ -1,6 +1,7 @@
 *{
     text-align: center;
     box-sizing: border-box;
+
 }
 body{
     font-family: sans-serif;
@@ -12,56 +13,82 @@ body{
 }
 header, nav, section, aside, footer {
     background: #ebebeb;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 header{
     font-family: sans-serif;
     color: #777;
+    padding: 10px;
+    margin: 3px;
+    margin-bottom: 8px;
 }
 article{
     background: #777;
     color: white;
+    padding:10px;
 }
 nav{
     font-family: sans-serif;
     color: #777;
+    padding: 10px;
+    margin: 3px;
 }
 aside{
     font-family: sans-serif;
     color: #777;
-    float: right;
-    width: 440px;
+    width: 44%;
     height:272px;
+    width:40%;
+    float:right;
+    height:100%;
+    margin-right: 3px;
 }
 section{
     font-family: sans-serif;
     color: #777;
     width: 495px;
+    float:left;
+    height:100%;
+    margin-left: 5px;
 }
 .container{
     font-family: sans-serif;
     color: #777;
+    width:58%;
+    margin-left: 3px;
+    padding: 13px;
+}
+.clearfix{
+    width: 100%;
+    height:295px;
 }
 .headings{
     font-family: sans-serif;
     color: #777;
     background-color: #ebebeb;
+    margin: 5px;
+    padding: 1px 0 1px 0;
 }
 .content{
     font-family: sans-serif;
     color: #777;
     background-color: #ebebeb;
+    margin: 5px;
+    padding: 1px 0 1px 0;
 }
 .content .headings p{
     color: #777;
     background: #ebebeb;
     margin-top: 5px;
     line-height: 50px;
+    width: 470px;
 }
 footer{
     font-family: sans-serif;
     color: #777;
     position: relative;
-    margin-top: -10px;
-    height: 75px;
-    background: ;
+    margin-top: 10px;
+    padding: 10px;
+    clear: both;
 }
