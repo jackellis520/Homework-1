@@ -2,9 +2,24 @@
     text-align: center;
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+header, nav, section, aside, footer {
+    background: #ebebeb;
+}
 header{
     font-family: sans-serif;
     color: #777;
+}
+article{
+    background: #777;
+    color: white;
 }
 nav{
     font-family: sans-serif;
@@ -48,5 +63,5 @@ footer{
     position: relative;
     margin-top: -10px;
     height: 75px;
-    background: #ebebeb;
+    background: ;
 }
