@@ -1,24 +1,52 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+}
 header{
-    
+    font-family: sans-serif;
+    color: #777;
 }
 nav{
-
+    font-family: sans-serif;
+    color: #777;
 }
 aside{
-
+    font-family: sans-serif;
+    color: #777;
+    float: right;
+    width: 440px;
+    height:272px;
 }
 section{
-
+    font-family: sans-serif;
+    color: #777;
+    width: 495px;
 }
 .container{
-
+    font-family: sans-serif;
+    color: #777;
 }
-.heading{
-
+.headings{
+    font-family: sans-serif;
+    color: #777;
+    background-color: #ebebeb;
 }
 .content{
-
+    font-family: sans-serif;
+    color: #777;
+    background-color: #ebebeb;
+}
+.content .headings p{
+    color: #777;
+    background: #ebebeb;
+    margin-top: 5px;
+    line-height: 50px;
 }
 footer{
-
+    font-family: sans-serif;
+    color: #777;
+    position: relative;
+    margin-top: -10px;
+    height: 75px;
+    background: #ebebeb;
 }
